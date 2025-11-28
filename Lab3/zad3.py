@@ -12,17 +12,6 @@ listaUlic = ["Jagodowa", "Lipowa", "Kwiatowa", "Kasztanowa", "Polna"]
 i = 0
 for i in range(5):
     for j in range(5):
-        if j == 0: 
-            j = "A"
-        elif j == 1:
-            j = "B"
-        elif j == 1:
-            j = "C"
-        elif j == 1:
-            j = "D"
-        else: 
-            j = "E"
-
         for k in range(1, 11):
             print("ul."+str(listaUlic[i])+" blok: " + str(j) +" mieszkanie: "+str(k))
     
